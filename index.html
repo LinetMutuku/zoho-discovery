@@ -992,6 +992,7 @@ async function sendEmail(){
       summary_html: htmlBody,
       summary_body: plainBody,
       date: dateStr,
+      cc_email: 'Josephat.Waweru@bck.co.ke',
     });
     note.innerHTML=`<span style="color:var(--mint)">✓ Summary sent to ${DEST}</span>`;
     toast('📨',`Summary sent to ${DEST}`);
